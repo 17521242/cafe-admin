@@ -1,5 +1,4 @@
 {
-  "homepage": "https://nguyentrongtuong.github.io/cafe-admin",
   "name": "cafe-admin",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
